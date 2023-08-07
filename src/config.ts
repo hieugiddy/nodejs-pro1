@@ -1,4 +1,4 @@
-const global={
-    pathRoot: __dirname
-}
+const global = {
+  pathRoot: __dirname
+};
 export default global;

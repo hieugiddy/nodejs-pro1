@@ -11,7 +11,7 @@ const generateFileName = (
 const getOutputFilePath = (fileName: string): string =>
   `${global.pathRoot}/processedImages/${fileName}.jpg`;
 
-const getInputFilePath = (fileName: String): string =>
+const getInputFilePath = (fileName: string): string =>
   `${global.pathRoot}/images/${fileName}.jpg`;
 
 const fileExist = async (filePath: string): Promise<boolean> => {
